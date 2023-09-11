@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'ut';
+    src: url('/ut.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'pxl';
+    src: url('/PixelOperator.ttf') format('truetype');
+}
+
+
+body {
+    background-color: black;
+    font-family: "ut", "Consolas", "Andale Mono", "Lucida Console";
+}
+
+/*
+
+  background-image: url(back.jpg);
+  background-repeat: no-repeat;
+  
+*/
+
+.title {
+    font-size: 60px;
+    color: #465831;
+    font-family: "ut", "Consolas", "Andale Mono", "Lucida Console";
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+
+.navigation {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+
+
+.content-box {
+    float: left;
+    background-color: black;
+    border: 5px solid #465831;
+    ;
+    width: 900px;
+    padding: 15px;
+    font-size: 27px;
+    font-family: "ut";
+    margin-top: 3%;
+    color: #cfe8a5;
+}
+
+.rightcolumn {
+    float: right;
+    width: 10%;
+    padding-right: 50px;
+    margin-top: 3%;
+    margin-left: .2%;
+}
+
+.right-content-box {
+    background-color: black;
+    border: 5px solid #465831;
+    width: 200px;
+    padding: 5px;
+    font-size: 23px;
+    font-family: "ut";
+    margin-left: 10%;
+}
+
+
+
+.image-container {
+    float: left;
+    margin-right: 20px;
+}
+
+.img-horizontal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: -10px;
+}
+
+.poster {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.option {
+    color: #57ffdb;
+    margin-right: 3%;
+    text-decoration: none;
+    font-size: 35px;
+    font-family: "ut", "Andale Mono", "Lucida Console"
+}
+
+.text {
+    color: #cfe8a5;
+    text-decoration: none;
+    font-family: "ut", "Andale Mono", "Lucida Console"
+}
